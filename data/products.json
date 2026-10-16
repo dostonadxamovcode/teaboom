@@ -1,0 +1,71 @@
+[
+  {
+    "sku": "P-1001",
+    "name": "Manual Coffee Grinder Compact",
+    "myPrice": 2500,
+    "minPrice": 2100,
+    "maxPrice": 2600,
+    "step": 50,
+    "competitors": [
+      { "seller": "MegaMart", "price": 2400, "inStock": true },
+      { "seller": "StockLess", "price": 2300, "inStock": false },
+      { "seller": "PriceHub", "price": 2450, "inStock": true }
+    ]
+  },
+  {
+    "sku": "P-1002",
+    "name": "Stainless Steel Water Bottle 1L",
+    "myPrice": 1999,
+    "minPrice": 1800,
+    "maxPrice": 2200,
+    "step": 100,
+    "competitors": []
+  },
+  {
+    "sku": "P-1003",
+    "name": "LED Desk Lamp Arc",
+    "myPrice": 999,
+    "minPrice": 900,
+    "maxPrice": 1100,
+    "step": 10,
+    "competitors": [
+      { "seller": "LampWorld", "price": 950, "inStock": false },
+      { "seller": "NightOwl", "price": 870, "inStock": false }
+    ]
+  },
+  {
+    "sku": "P-1004",
+    "name": "Yoga Mat Eco 6mm",
+    "myPrice": 1500,
+    "minPrice": 1400,
+    "maxPrice": 1600,
+    "step": 100,
+    "competitors": [
+      { "seller": "FitStore", "price": 1450, "inStock": true },
+      { "seller": "ZenShop", "price": 1480, "inStock": true }
+    ]
+  },
+  {
+    "sku": "P-1005",
+    "name": "Bluetooth Speaker Mini",
+    "myPrice": 3000,
+    "minPrice": 2900,
+    "maxPrice": 3000,
+    "step": 50,
+    "competitors": [
+      { "seller": "SoundWorld", "price": 3100, "inStock": true }
+    ]
+  },
+  {
+    "sku": "P-1006",
+    "name": "Ceramic Tea Set (4 pcs)",
+    "myPrice": 1550,
+    "minPrice": 1400,
+    "maxPrice": 1600,
+    "step": 0.5,
+    "competitors": [
+      { "seller": "TeaHouse", "price": 1499.99, "inStock": true },
+      { "seller": "GiftStore", "price": 1520, "inStock": false }
+    ]
+  }
+]

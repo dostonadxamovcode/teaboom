@@ -1,0 +1,8 @@
+[
+  { "sku": "P-1001", "oldPrice": 2500, "newPrice": 2350, "reason": "UNDERCUT" },
+  { "sku": "P-1002", "oldPrice": 1999, "newPrice": 2200, "reason": "NO_COMPETITORS" },
+  { "sku": "P-1003", "oldPrice": 999, "newPrice": 1100, "reason": "NO_COMPETITORS" },
+  { "sku": "P-1004", "oldPrice": 1500, "newPrice": 1400, "reason": "AT_MIN" },
+  { "sku": "P-1005", "oldPrice": 3000, "newPrice": 3000, "reason": "AT_MAX" },
+  { "sku": "P-1006", "oldPrice": 1550, "newPrice": 1499, "reason": "UNDERCUT" }
+]

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ананасовый улун — ароматный светлый улун с нотами спелого ананаса.">
+  <title>Ананасовый улун — Teaboom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline">Чай, который делает день теплее <span>Доставка по России</span></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Teaboom — главная"><span class="brand-mark">t<span>•</span></span><span class="brand-name">tea<span>boom</span><small>чайная коллекция</small></span></a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="#catalog">Каталог</a><a href="#about">О чае</a><a href="#delivery">Доставка и оплата</a>
+    </nav>
+    <a class="header-contact" href="tel:+74951201551"><span class="contact-dot"></span> +7 (495) 120-15-51</a>
+  </header>
+  <main class="page-shell">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="#">Главная</a><span>/</span><a href="#catalog">Каталог</a><span>/</span><a href="#category">Улун</a><span>/</span><span aria-current="page">Ананасовый улун</span></nav>
+    <section class="product-layout" aria-labelledby="product-title">
+      <div class="product-visual">
+        <div class="image-badge">Выбор ценителей</div>
+        <div class="product-image-wrap">
+          <img class="product-image" src="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.800x800.jpg" alt="Ананасовый улун — листовой чай" onerror="this.style.display='none';document.querySelector('.image-fallback').hidden=false">
+          <div class="image-fallback" hidden><span class="tea-illustration" aria-hidden="true">🍃</span><strong>Ананасовый улун</strong><small>листовой чай</small></div>
+        </div>
+        <p class="image-caption"><span class="caption-line"></span> Светлый улун с фруктовым характером <span class="caption-line"></span></p>
+      </div>
+      <div class="product-info">
+        <div class="eyebrow"><span class="eyebrow-line"></span> Китайский ароматизированный улун</div>
+        <h1 id="product-title">Ананасовый<br class="desktop-break"> улун</h1>
+        <div class="rating-row"><span class="stars" aria-label="Пять звёзд">★★★★★</span><span>Нежный аромат · Яркий вкус</span></div>
+        <p class="intro">Светлый фуцзяньский улун с ароматом спелого ананаса. Свежий, мягкий и удивительно солнечный — для маленькой паузы в большом дне.</p>
+        <div class="divider"></div>
+        <div class="section-heading"><span>Выберите фасовку</span><span class="section-note">Вес чая</span></div>
+        <div class="size-options" role="group" aria-label="Выбор фасовки">
+          <button class="size-option is-selected" type="button" data-size="100" aria-pressed="true"><span class="size-weight">100 г</span><span class="size-detail">На пробу</span></button>
+          <button class="size-option" type="button" data-size="500" aria-pressed="false"><span class="size-weight">500 г</span><span class="size-detail">Любимый запас</span></button>
+          <button class="size-option" type="button" data-size="1000" aria-pressed="false"><span class="size-weight">1000 г</span><span class="size-detail">Для чаепитий</span></button>
+          <button class="size-option" type="button" data-size="5000" aria-pressed="false"><span class="size-weight">5000 г</span><span class="size-detail">Большая коллекция</span></button>
+        </div>
+        <div class="sku-row"><span>Артикул</span><strong id="product-sku">01306</strong><span class="availability"><i></i> В наличии</span></div>
+        <div class="purchase-panel">
+          <div class="price-block"><span class="price-label">Цена за выбранную фасовку</span><div class="prices"><span class="current-price" id="current-price">326,40 ₽</span><span class="old-price" id="old-price">349,20 ₽</span><span class="discount" id="discount">−7%</span></div></div>
+          <button class="cart-button" type="button" id="cart-button"><span>В корзину</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></button>
+        </div>
+        <p class="cart-feedback" id="cart-feedback" aria-live="polite"></p>
+        <div class="product-perks"><div><span class="perk-icon">✦</span><span><strong>Свежая упаковка</strong><small>Сохраняем аромат листа</small></span></div><div><span class="perk-icon">⌁</span><span><strong>Бережный отбор</strong><small>Внимание к каждой партии</small></span></div></div>
+        <div class="short-description" id="about"><h2>О вкусе</h2><p>Прозрачный настой светло-янтарного цвета. Классическая нота светлого улуна переплетается с ярким ароматом ананаса, оставляя мягкое, свежее послевкусие.</p><div class="tea-facts"><div><span>⏱</span><strong>1–3 мин</strong><small>Заваривание</small></div><div><span>♨</span><strong>80–85 °C</strong><small>Температура воды</small></div><div><span>◌</span><strong>500 мл</strong><small>Объём воды</small></div></div></div>
+      </div>
+    </section>
+    <section class="bottom-note" id="delivery"><span class="note-symbol">✳</span><p><strong>Ваш ритуал начинается с чашки.</strong><br>Подберите удобную фасовку и наслаждайтесь любимым вкусом.</p><a href="#product-title">Вернуться к товару ↑</a></section>
+  </main>
+  <footer><a class="footer-brand" href="#">tea<span>boom</span></a><span>Чайная коллекция для ваших моментов</span><span>© Teaboom concept</span></footer>
+</body>
+</html>

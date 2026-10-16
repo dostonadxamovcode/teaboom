@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SaleScout reprice results: calculated prices for every product.">
+  <title>SaleScout — Reprice Results</title>
+  <link rel="stylesheet" href="reprice.css">
+  <script src="reprice.js" defer></script>
+  <script src="reprice-ui.js" defer></script>
+</head>
+<body>
+  <main class="reprice-page">
+    <header class="reprice-header">
+      <h1>Reprice Results</h1>
+      <p class="reprice-note">Calculated live from <code>data/products.json</code> using the documented pricing rules.</p>
+    </header>
+
+    <p class="results-status" id="results-status" role="status">Loading products…</p>
+
+    <div class="table-wrap">
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th scope="col">SKU</th>
+            <th scope="col">Product</th>
+            <th scope="col">Old price</th>
+            <th scope="col">New price</th>
+            <th scope="col">Reason</th>
+          </tr>
+        </thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
